@@ -1,1 +1,6 @@
 ve/
+.DS_Store
+ve.Python
+__pycache__/stack.cpython-37.pyc
+*.idea/
+*.pyc
