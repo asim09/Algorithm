@@ -7,4 +7,4 @@ def replacement(mainSring, toBeReplaced, newString):
     return mainSring
 
 lol = 'String with replaced Content :  Hello, ThiX iX a Xample Xtring'
-print replacement(lol, ['s','l', 'a'], 'AA')
+print(replacement(lol, ['s','l', 'a'], 'AA'))

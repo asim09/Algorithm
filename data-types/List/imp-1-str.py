@@ -13,7 +13,7 @@ def rec(a):
 
 if __name__ == '__main__':
     x = 'AABCCDE'
-    print __name__
+    print( __name__)
 
-    print rec(x)
+    print(rec(x))
 

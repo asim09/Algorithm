@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+     <!--Latest compiled and minified CSS-->
+
+</head>
+
+
+
+
+
+<body>
+
+<form action="#">
+<div class="container">
+    <input id="uname" placeholder="uname">
+    <spa id="username"></spa>
+</div>
+    <button type="submit" onclick="clickMe()">submit</button>
+</form>
+
+
+
+
+<script type="text/javascript">
+    function clickMe() {
+        var val1 = document.getElementById('uname').value;
+        // document.write(val1)
+        if (val1 == ''){
+            document.getElementById('username').innerHTML = 'Pleae enter data';
+            return false;
+        }
+
+    }
+</script>
+
+</body>

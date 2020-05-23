@@ -6,4 +6,4 @@ new_list = []
 for i in a:
     sum = sum + i
     new_list.append(sum)
-print new_list
+print(new_list)

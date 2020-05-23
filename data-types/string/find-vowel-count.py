@@ -6,4 +6,4 @@ c = 0
 for i in l:
     if i in vowels:
         c = c + 1
-print c
+print(c)
