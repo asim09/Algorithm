@@ -74,15 +74,14 @@
             var name = $('#trip'+member_id).val();
             var advance_type = $('#type' + member_id).val();
             // alert(name+advance_type);
-            $.ajax({
+            req = $.ajax({
                 url:'/test_js',
                 type:'POST',
                 data:{
                     trip_type:name,advance_type:advance_type,aid:member_id
                 }
             });
-            .done(function (data) {
-                {#alert('Data updated successfully');#}
+            req.done(function (data) {
                 $('.section' + member_id).fadeOut(300).fadeIn(500);
 
                 $('#trip' + member_id).text(data.type);
