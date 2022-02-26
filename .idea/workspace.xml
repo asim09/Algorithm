@@ -1,59 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67a762d9-6d11-4f08-bdce-934a27fa8dce" name="Default Changelist" comment="commit">
-      <change afterPath="$PROJECT_DIR$/abc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miscellaneous/mixed.py" afterDir="false" />
+    <list default="true" id="67a762d9-6d11-4f08-bdce-934a27fa8dce" name="Default Changelist" comment="intial commit">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/diamond_problem.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/diamond_problem.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithim/searching/bninary-search.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithim/searching/bninary-search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithim/sorting/bubble-sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithim/sorting/bubble-sort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/current-path.py" beforeDir="false" afterPath="$PROJECT_DIR$/current-path.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-types/List/bubble-sort-list of int.py" beforeDir="false" afterPath="$PROJECT_DIR$/data-types/List/bubble-sort-list of int.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-types/List/dont-count-space-digit-in-str.py" beforeDir="false" afterPath="$PROJECT_DIR$/data-types/List/dont-count-space-digit-in-str.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-types/List/duplicate-word-removal.py" beforeDir="false" afterPath="$PROJECT_DIR$/data-types/List/duplicate-word-removal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-types/List/imp-1-str.py" beforeDir="false" afterPath="$PROJECT_DIR$/data-types/List/imp-1-str.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-types/List/ith-ele-sum-of-i+1.py" beforeDir="false" afterPath="$PROJECT_DIR$/data-types/List/ith-ele-sum-of-i+1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-types/List/list-intersetion.py" beforeDir="false" afterPath="$PROJECT_DIR$/data-types/List/list-intersetion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-types/List/missing-and-duplicate-num.py" beforeDir="false" afterPath="$PROJECT_DIR$/data-types/List/missing-and-duplicate-num.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-types/List/nestedList-to-singleList.py" beforeDir="false" afterPath="$PROJECT_DIR$/data-types/List/nestedList-to-singleList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-types/List/palindrome-numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/data-types/List/palindrome-numbers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-types/List/sort-list-of-string.py" beforeDir="false" afterPath="$PROJECT_DIR$/data-types/List/sort-list-of-string.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-types/List/sum-of-sqaure-root-digit.py" beforeDir="false" afterPath="$PROJECT_DIR$/data-types/List/sum-of-sqaure-root-digit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-types/dictionary/dict-key-value-count.py" beforeDir="false" afterPath="$PROJECT_DIR$/data-types/dictionary/dict-key-value-count.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-types/dictionary/list-to-dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/data-types/dictionary/list-to-dict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-types/dictionary/prog-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/data-types/dictionary/prog-1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-types/dictionary/tuple-to-dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/data-types/dictionary/tuple-to-dictionary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-types/string/change-first-letter.py" beforeDir="false" afterPath="$PROJECT_DIR$/data-types/string/change-first-letter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-types/string/find-vowel-count.py" beforeDir="false" afterPath="$PROJECT_DIR$/data-types/string/find-vowel-count.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-types/string/first-non-repeating-char.py" beforeDir="false" afterPath="$PROJECT_DIR$/data-types/string/first-non-repeating-char.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-types/string/longest-2-char-string.py" beforeDir="false" afterPath="$PROJECT_DIR$/data-types/string/longest-2-char-string.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-types/string/string-multi-char-replace.py" beforeDir="false" afterPath="$PROJECT_DIR$/data-types/string/string-multi-char-replace.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorator/decorator-error-handling.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorator/decorator-error-handling.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorator/decorator.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorator/decorator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file-system/copy-json-data-to-another-file.py" beforeDir="false" afterPath="$PROJECT_DIR$/file-system/copy-json-data-to-another-file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file-system/test" beforeDir="false" afterPath="$PROJECT_DIR$/file-system/test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file-system/testing" beforeDir="false" afterPath="$PROJECT_DIR$/file-system/testing" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasript/JS.html" beforeDir="false" afterPath="$PROJECT_DIR$/javasript/JS.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/miscellaneous/armstrong-numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/miscellaneous/armstrong-numbers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/miscellaneous/factorial.py" beforeDir="false" afterPath="$PROJECT_DIR$/miscellaneous/factorial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/miscellaneous/fibinacci-series.py" beforeDir="false" afterPath="$PROJECT_DIR$/miscellaneous/fibinacci-series.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/miscellaneous/file-gmc.py" beforeDir="false" afterPath="$PROJECT_DIR$/miscellaneous/file-gmc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/miscellaneous/prime-number.py" beforeDir="false" afterPath="$PROJECT_DIR$/miscellaneous/prime-number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/miscellaneous/reference-count.py" beforeDir="false" afterPath="$PROJECT_DIR$/miscellaneous/reference-count.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rough.py" beforeDir="false" afterPath="$PROJECT_DIR$/rough.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing.json" beforeDir="false" afterPath="$PROJECT_DIR$/testing.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/while-loop/factorial.py" beforeDir="false" afterPath="$PROJECT_DIR$/while-loop/factorial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/while-loop/fibonacci.py" beforeDir="false" afterPath="$PROJECT_DIR$/while-loop/fibonacci.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -373,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590262435067</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="intial commit">
+      <created>1645873289144</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1645873289144</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -432,7 +388,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="minor changes in program" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="intial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="intial commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/stack.py">
