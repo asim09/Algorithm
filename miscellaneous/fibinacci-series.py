@@ -1,3 +1,27 @@
+# Using Generator
+
+def fib_series(n):
+    x = 0
+    y = 1
+    count = 0
+    while count < n:
+
+        yield x
+
+        z = x + y
+        x = y
+        y = z
+        count+=1
+obj = fib_series(10)
+
+
+for i in obj:
+    print(i)
+
+
+
+
+
 term = 10
 
 n1 = 0
