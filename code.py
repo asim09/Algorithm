@@ -1,6 +1,6 @@
 print('--------------HELLO---------------------')
-target = __import__("test_code.py")
-sum = target.sum
+# target = __import__("test_code.py")
+# sum = target.sum
 
 # from test_code import *
 # import unittest
