@@ -4,12 +4,9 @@ ve.Python
 __pycache__/stack.cpython-37.pyc
 *.idea/
 *.pyc
-.xml
-/most_popular_cities_list.csv
 *.xml
+*.csv
 rough_ve/
 *.jpg
 2095_level/
-
-
 /.vscode/

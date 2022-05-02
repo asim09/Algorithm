@@ -1,12 +1,12 @@
-import time, threading
-
-WAIT_SECONDS = 4
-
-def foo():
-    print(time.ctime())
-    threading.Timer(WAIT_SECONDS, foo).start()
-    
-foo()
+# import time, threading
+#
+# WAIT_SECONDS = 4
+#
+# def foo():
+#     print(time.ctime())
+#     threading.Timer(WAIT_SECONDS, foo).start()
+#
+# foo()
 
 
 # class India():
@@ -1129,3 +1129,21 @@ foo()
 #
 #
 #
+
+
+grades = ["A", "A", "B", "C", "D", "C", "B", "C", "A", "C", "B"]
+
+
+counter = dict()
+for grade in grades:
+    # print(grade)
+    if grade in counter:
+        pass
+        # print(counter[grade])
+        # counter[grade] = counter[grade] + 1
+    else:
+        print(counter[grade])
+        counter[grade] = 1
+
+
+print(counter)

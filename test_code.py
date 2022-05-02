@@ -1,9 +1,11 @@
-def cuboid_volume(l):
-    return (l*l*l)
+import unittest
+from code import cuboid_volume
 
-sample = ['dnnjsdjn']
 
-# length = [2,1.1, -2.5, 2j, 'two']
-#
-# for i in range(len(length)):
-#     print ("The volume of cuboid:",cuboid_volume(length[i]))
+class TestCuboid(unittest.TestCase):
+    def test_volume(self):
+        self.assertAlmostEqual(cuboid_volume(2),8)
+        self.assertAlmostEqual(cuboid_volume(1),1)
+        self.assertAlmostEqual(cuboid_volume(0),0)
+        self.assertAlmostEqual(cuboid_volume(5.5),166.375)
+        self.assertAlmostEqual(cuboid_volume(5.5),1)

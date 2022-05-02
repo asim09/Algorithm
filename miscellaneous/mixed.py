@@ -1,4 +1,5 @@
 #check if palindrome
+input = 'malayalam'
 str = 'malayalam'
 
 index = - 1
