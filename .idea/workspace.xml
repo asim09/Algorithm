@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67a762d9-6d11-4f08-bdce-934a27fa8dce" name="Default Changelist" comment="intial commit">
-      <change afterPath="$PROJECT_DIR$/access_fun.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding_problems.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shortcuts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithim/sorting/bubble-sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithim/sorting/bubble-sort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/dict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/miscellaneous/mixed.py" beforeDir="false" afterPath="$PROJECT_DIR$/miscellaneous/mixed.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/miscellaneous/prime-number.py" beforeDir="false" afterPath="$PROJECT_DIR$/miscellaneous/prime-number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rough.py" beforeDir="false" afterPath="$PROJECT_DIR$/rough.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code.py" afterDir="false" />
-    </list>
+    <list default="true" id="67a762d9-6d11-4f08-bdce-934a27fa8dce" name="Default Changelist" comment="Binary search Algo" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,6 +128,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Desktop/development/terraform" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -360,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645873395435</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Binary search Algo">
+      <created>1651468666187</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651468666187</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -420,7 +413,8 @@
     <MESSAGE value="minor changes in program" />
     <MESSAGE value="commit" />
     <MESSAGE value="intial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="intial commit" />
+    <MESSAGE value="Binary search Algo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Binary search Algo" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/stack.py">
