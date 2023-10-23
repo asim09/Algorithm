@@ -23,3 +23,24 @@ def timer(func):
         # print 'finished in ' + str(run_time) + ' sec'
         return value
     return wrapper_timer
+
+
+
+# Decorator function taking the name and decorate with ? in the begining and # at the end
+
+input = 'asim'
+output = '?asim#'
+
+
+def decorate_name(fun):
+    def inner(user_input):
+        s = '?' + user_input + '#'
+        return fun(s)
+    return inner
+
+
+@decorate_name
+def get_input(user_name):
+    return user_name
+
+print(get_input(input))

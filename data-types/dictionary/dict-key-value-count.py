@@ -12,6 +12,7 @@ for i in sample_list:
             count_upper = sample_list.count(i.upper())
             resultant_dict[i.upper()] = count_lower + count_upper
 
+
 print(resultant_dict)
 
 
@@ -57,3 +58,52 @@ for word in list:
     resultant_dict[word[0]] = word
 
 print(resultant_dict)
+
+'''*****************************************************************************************'''
+
+
+data = [
+    {
+        "eid": 95,
+        "weekStartdate": "2021-03-18 12:40:11",
+        "workHours": 5.0,
+        "test": "No value",
+        "test1": "some value",
+        "test3": "total value",
+    },
+    {
+        "eid": 95,
+        "weekStartdate": "2021-03-19 12:40:11",
+        "workHours": 6.0,
+        "test": "No value",
+        "test1": "some value",
+        "test3": "total value",
+    },
+    {
+        "eid": 95,
+        "weekStartdate": "2021-03-20 12:40:11",
+        "workHours": 7.0,
+        "test": "No value",
+        "test1": "some value",
+        "test3": "total value",
+    },
+    {
+        "eid": 97,
+        "weekStartdate": "2021-03-17 12:40:11",
+        "workHours": 8.0,
+        "test": "No value",
+        "test1": "some value",
+        "test3": "total value",
+    },
+    {
+        "eid": 97,
+        "weekStartdate": "2021-03-21 12:40:11",
+        "workHours": 9.0,
+        "test": "No value",
+        "test1": "some value",
+        "test3": "total value",
+    }
+]
+# 1 -
+# sort list of dictionary on the basis:
+soeted_data = sorted(data, key=lambda x: x["eid"])
