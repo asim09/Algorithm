@@ -2,15 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6dd9da42-8bd2-4ec3-b10f-375f1adafbf3" name="Changes" comment="new code added">
+      <change beforePath="$PROJECT_DIR$/.idea/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Algorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/class.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/constructor.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/constructor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/polymorphism.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/polymorphism.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/super.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/super.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary-search/access_fun.py" beforeDir="false" afterPath="$PROJECT_DIR$/binary-search/access_fun.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary-search/basic-algo.py" beforeDir="false" afterPath="$PROJECT_DIR$/binary-search/basic-algo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary-search/problems.py" beforeDir="false" afterPath="$PROJECT_DIR$/binary-search/problems.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary-search/test_cases.py" beforeDir="false" afterPath="$PROJECT_DIR$/binary-search/test_cases.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/code.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/abstract_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/abstract_class.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/p1.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/p1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-types/string/find-vowel-count.py" beforeDir="false" afterPath="$PROJECT_DIR$/data-types/string/find-vowel-count.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file-system/copy-json-data-to-another-file.py" beforeDir="false" afterPath="$PROJECT_DIR$/file-system/copy-json-data-to-another-file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/tricky.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/tricky.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-types/List/list_to_str.py" beforeDir="false" afterPath="$PROJECT_DIR$/data-types/List/list_to_str.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-system/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/file-system/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/p.py" beforeDir="false" afterPath="$PROJECT_DIR$/p.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rough.py" beforeDir="false" afterPath="$PROJECT_DIR$/rough.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +115,28 @@
       <option name="project" value="LOCAL" />
       <updated>1698081846836</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new code added">
+      <created>1699453280720</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699453280720</updated>
+    </task>
+    <task id="LOCAL-00003" summary="new code added">
+      <created>1699453318192</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699453318192</updated>
+    </task>
+    <task id="LOCAL-00004" summary="new code added">
+      <created>1699453333364</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699453333364</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +151,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="txt added" />
     <MESSAGE value="new code added" />
     <option name="LAST_COMMIT_MESSAGE" value="new code added" />
   </component>
