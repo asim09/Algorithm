@@ -68,6 +68,12 @@ sample_input = [
 #     print()
 
 
+
+with open('/.test.txt', 'r') as f:
+    f.read().replace('Asim', 'amir')
+
+
+
     
 
 

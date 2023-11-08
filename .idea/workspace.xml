@@ -1,174 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67a762d9-6d11-4f08-bdce-934a27fa8dce" name="Default Changelist" comment="Binary search Algo" />
+    <list default="true" id="6dd9da42-8bd2-4ec3-b10f-375f1adafbf3" name="Changes" comment="new code added">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/code.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/p1.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/p1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-types/string/find-vowel-count.py" beforeDir="false" afterPath="$PROJECT_DIR$/data-types/string/find-vowel-count.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-system/copy-json-data-to-another-file.py" beforeDir="false" afterPath="$PROJECT_DIR$/file-system/copy-json-data-to-another-file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p.py" beforeDir="false" afterPath="$PROJECT_DIR$/p.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rough.py" beforeDir="false" afterPath="$PROJECT_DIR$/rough.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Algorithm$Run.coverage" NAME="Run Coverage Results" MODIFIED="1587735475743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithm$rough.coverage" NAME="Run Coverage Results" MODIFIED="1558376397164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="package.json" />
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>u'00012128': [</find>
-      <find>RoomRate</find>
-      <find>hote</find>
-      <find>review</find>
-      <find>RoomStay</find>
-      <find>data</find>
-      <find>rate_plans</find>
-      <find>hotelcode</find>
-      <find>00012128</find>
-      <find>00018870</find>
-      <find>00019292</find>
-      <find>00007060</find>
-      <find>TPA_Extensions</find>
-      <find>BasicPropertyInfo</find>
-      <find>00011478</find>
-      <find>hotel</find>
-      <find>name</find>
-      <find>star</find>
-      <find>villa</find>
-      <find>counter</find>
-      <find>991911</find>
-      <find>Arbor Station Elementary School</find>
-      <find>Bill Arp Elementary School</find>
-      <find>booklet</find>
-      <find>id</find>
-      <find>schoolId</find>
-      <find>grade</find>
-      <find>'schools'</find>
-      <find>schools</find>
-      <find>closeDate</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/algorithim/sorting/bubble-sort.py" />
-        <option value="$PROJECT_DIR$/miscellaneous/factorial.py" />
-        <option value="$PROJECT_DIR$/data-types/string/change-first-letter.py" />
-        <option value="$PROJECT_DIR$/data-types/List/fallen-list.py" />
-        <option value="$PROJECT_DIR$/data-types/List/dont-count-space-digit-in-str.py" />
-        <option value="$PROJECT_DIR$/data-types/List/bubble-sort-list of int.py" />
-        <option value="$PROJECT_DIR$/data-types/List/palindrome-numbers.py" />
-        <option value="$PROJECT_DIR$/data-types/List/sum-of-sqaure-root-digit.py" />
-        <option value="$PROJECT_DIR$/current-path.py" />
-        <option value="$PROJECT_DIR$/data-types/string/longest-2-char-string.py" />
-        <option value="$PROJECT_DIR$/algorithim/searching/bninary-search.py" />
-        <option value="$PROJECT_DIR$/data-types/List/imp-1-str.py" />
-        <option value="$PROJECT_DIR$/data-types/List/ith-ele-sum-of-i+1.py" />
-        <option value="$PROJECT_DIR$/data-types/string/find-vowel-count.py" />
-        <option value="$PROJECT_DIR$/data-types/string/string-multi-char-replace.py" />
-        <option value="$PROJECT_DIR$/while-loop/factorial.py" />
-        <option value="$PROJECT_DIR$/stack.py" />
-        <option value="$USER_HOME$/Desktop/test.html" />
-        <option value="$PROJECT_DIR$/javascript/update-form-values-without-refresh.html" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/2095_level/index.html" />
-        <option value="$PROJECT_DIR$/javascript/main.js" />
-        <option value="$PROJECT_DIR$/javascript/index.html" />
-        <option value="$PROJECT_DIR$/javasript/JS.html" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/dict.py" />
-        <option value="$PROJECT_DIR$/miscellaneous/mixed.py" />
-        <option value="$PROJECT_DIR$/miscellaneous/armstrong-numbers.py" />
-        <option value="$PROJECT_DIR$/miscellaneous/fibinacci-series.py" />
-        <option value="$PROJECT_DIR$/sample.xml" />
-        <option value="$PROJECT_DIR$/rough.py" />
-        <option value="$PROJECT_DIR$/local.py" />
-      </list>
-    </option>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/code/p1.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/data-types/dictionary/list-to-dict.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/data-types/dictionary/prog-1.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/code/tricky.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/run.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="721" />
-  </component>
-  <component name="ProjectId" id="24XrAwMTEnYs1LGHZHn4NnLPv3D" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes />
-  </component>
+  <component name="ProjectId" id="2ONNfoRqb6ad5bOOnP5VkFKEnBg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TF_FMT" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Desktop/development/terraform" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/run.py" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/data-types/dictionary" />
-    </key>
-  </component>
   <component name="RunManager">
-    <configuration default="true" type="Python.FlaskServer" factoryName="Flask server">
-      <module name="Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Run" type="PythonConfigurationType" factoryName="Python">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Documents\Algorithm\nvenv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Documents\Algorithm\nvenv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -179,224 +87,23 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="67a762d9-6d11-4f08-bdce-934a27fa8dce" name="Default Changelist" comment="" />
-      <created>1558209179343</created>
+      <changelist id="6dd9da42-8bd2-4ec3-b10f-375f1adafbf3" name="Changes" comment="" />
+      <created>1681397186559</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1558209179343</updated>
-      <workItem from="1558209180965" duration="8707000" />
-      <workItem from="1558441229083" duration="455000" />
-      <workItem from="1558525619911" duration="5253000" />
-      <workItem from="1558624862687" duration="7816000" />
-      <workItem from="1558690860775" duration="4641000" />
-      <workItem from="1558778735687" duration="46000" />
-      <workItem from="1558780220171" duration="8948000" />
-      <workItem from="1558934692134" duration="838000" />
-      <workItem from="1558947062060" duration="484000" />
-      <workItem from="1558958126686" duration="22280000" />
-      <workItem from="1559212107357" duration="754000" />
-      <workItem from="1559312788050" duration="311000" />
-      <workItem from="1559576737558" duration="819000" />
-      <workItem from="1559652913352" duration="1922000" />
-      <workItem from="1560053831110" duration="4617000" />
-      <workItem from="1560191615144" duration="2916000" />
-      <workItem from="1560235592586" duration="676000" />
-      <workItem from="1560252136456" duration="6991000" />
-      <workItem from="1560484366300" duration="13405000" />
-      <workItem from="1585026027702" duration="3246000" />
-      <workItem from="1585120000093" duration="5064000" />
-      <workItem from="1585649124636" duration="46000" />
-      <workItem from="1585653595450" duration="18000" />
-      <workItem from="1585938628249" duration="8908000" />
-      <workItem from="1586194038317" duration="34007000" />
-      <workItem from="1587060265645" duration="9260000" />
-      <workItem from="1587638583799" duration="8856000" />
-      <workItem from="1587901152321" duration="355000" />
-      <workItem from="1588397019640" duration="1427000" />
-      <workItem from="1589183257807" duration="2217000" />
-      <workItem from="1590059323378" duration="2345000" />
-      <workItem from="1590081403871" duration="4777000" />
-      <workItem from="1590261482734" duration="1043000" />
-      <workItem from="1594124294386" duration="937000" />
-      <workItem from="1594223416475" duration="964000" />
-      <workItem from="1594714499163" duration="3900000" />
-      <workItem from="1594801868794" duration="404000" />
-      <workItem from="1594804916990" duration="1870000" />
-      <workItem from="1594886220986" duration="660000" />
-      <workItem from="1594913299200" duration="3904000" />
-      <workItem from="1594964047193" duration="1181000" />
-      <workItem from="1594982786375" duration="1249000" />
-      <workItem from="1597495284443" duration="1488000" />
-      <workItem from="1597498992203" duration="55000" />
-      <workItem from="1598172297904" duration="1634000" />
-      <workItem from="1598767749923" duration="989000" />
-      <workItem from="1600450473075" duration="812000" />
-      <workItem from="1601103655731" duration="2089000" />
-      <workItem from="1601195498514" duration="11000" />
-      <workItem from="1601457212527" duration="662000" />
-      <workItem from="1601931285362" duration="862000" />
-      <workItem from="1602393797346" duration="11721000" />
-      <workItem from="1602479193511" duration="1237000" />
-      <workItem from="1602498652522" duration="531000" />
-      <workItem from="1602576413635" duration="354000" />
-      <workItem from="1602680822174" duration="9356000" />
-      <workItem from="1603451727437" duration="851000" />
-      <workItem from="1603650724754" duration="2330000" />
-      <workItem from="1603981656441" duration="1423000" />
-      <workItem from="1604747514402" duration="2069000" />
-      <workItem from="1604912680434" duration="12159000" />
-      <workItem from="1604998677786" duration="162000" />
-      <workItem from="1605066729941" duration="16546000" />
-      <workItem from="1605118818164" duration="386000" />
-      <workItem from="1605153888457" duration="36547000" />
-      <workItem from="1605678313500" duration="501000" />
-      <workItem from="1605684183963" duration="2372000" />
-      <workItem from="1605699970861" duration="728000" />
-      <workItem from="1605701264864" duration="3835000" />
-      <workItem from="1605843177115" duration="1851000" />
-      <workItem from="1605865415984" duration="6233000" />
-      <workItem from="1605936282247" duration="2526000" />
-      <workItem from="1605940747957" duration="542000" />
-      <workItem from="1605953562323" duration="2087000" />
-      <workItem from="1606117132298" duration="6058000" />
-      <workItem from="1606143223823" duration="552000" />
-      <workItem from="1606148266263" duration="1001000" />
-      <workItem from="1606296904581" duration="203000" />
-      <workItem from="1606302692719" duration="291000" />
-      <workItem from="1606408219643" duration="3073000" />
-      <workItem from="1606473079142" duration="1765000" />
-      <workItem from="1606737887597" duration="1117000" />
-      <workItem from="1607056914469" duration="2094000" />
-      <workItem from="1607332469040" duration="1051000" />
-      <workItem from="1607590577320" duration="1447000" />
-      <workItem from="1607691462173" duration="944000" />
-      <workItem from="1607692772206" duration="1363000" />
-      <workItem from="1607867852052" duration="1334000" />
-      <workItem from="1607947062823" duration="1207000" />
-      <workItem from="1608100505206" duration="3048000" />
-      <workItem from="1608194942976" duration="3288000" />
-      <workItem from="1608293106629" duration="525000" />
-      <workItem from="1608357321910" duration="1880000" />
-      <workItem from="1608553006008" duration="2164000" />
-      <workItem from="1608615116641" duration="2991000" />
-      <workItem from="1608714709771" duration="787000" />
-      <workItem from="1609142249555" duration="1469000" />
-      <workItem from="1609146656443" duration="2335000" />
-      <workItem from="1609752897949" duration="494000" />
-      <workItem from="1609842895751" duration="407000" />
-      <workItem from="1610000363997" duration="4518000" />
-      <workItem from="1610770604948" duration="4894000" />
-      <workItem from="1611221396488" duration="1689000" />
-      <workItem from="1611410326555" duration="265000" />
-      <workItem from="1612330175309" duration="193000" />
-      <workItem from="1612516087182" duration="1465000" />
-      <workItem from="1623316286305" duration="1916000" />
-      <workItem from="1623319187506" duration="20044000" />
-      <workItem from="1624009067583" duration="29497000" />
-      <workItem from="1624878549103" duration="7197000" />
-      <workItem from="1625395045334" duration="2253000" />
-      <workItem from="1625488266915" duration="4035000" />
-      <workItem from="1627666118639" duration="3859000" />
-      <workItem from="1627888448134" duration="3614000" />
-      <workItem from="1631176950770" duration="297000" />
-      <workItem from="1631539956786" duration="492000" />
-      <workItem from="1632228581322" duration="1186000" />
-      <workItem from="1632746634918" duration="460000" />
-      <workItem from="1632847222065" duration="87000" />
-      <workItem from="1633500683195" duration="2106000" />
-      <workItem from="1633932625324" duration="705000" />
+      <updated>1681397186559</updated>
     </task>
-    <task id="LOCAL-00001" summary="minor changes in program">
-      <created>1560141165950</created>
+    <task id="LOCAL-00001" summary="new code added">
+      <created>1698081846836</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1560141165950</updated>
+      <updated>1698081846836</updated>
     </task>
-    <task id="LOCAL-00002" summary="commit">
-      <created>1590261667368</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1590261667368</updated>
-    </task>
-    <task id="LOCAL-00003" summary="commit">
-      <created>1590262435067</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1590262435067</updated>
-    </task>
-    <task id="LOCAL-00004" summary="intial commit">
-      <created>1645873289144</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1645873289144</updated>
-    </task>
-    <task id="LOCAL-00005" summary="intial commit">
-      <created>1645873395435</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1645873395435</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Binary search Algo">
-      <created>1651468666187</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1651468666187</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="447126000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="721" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49836066" weight="0.2019544" />
-      <window_info id="Favorites" order="1" side_tool="true" weight="0.32980457" />
-      <window_info id="Structure" order="2" sideWeight="0.50163937" side_tool="true" weight="0.23371336" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="1" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Python Console" order="3" weight="0.32786885" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="9" weight="0.32882884" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.42295083" />
-      <window_info anchor="right" id="SciView" order="0" />
-      <window_info anchor="right" id="Database" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info anchor="right" id="Find" order="5" weight="0.32899022" />
-      <window_info anchor="right" id="Run" order="6" weight="0.40553746" />
-    </layout>
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -410,368 +117,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="minor changes in program" />
-    <MESSAGE value="commit" />
-    <MESSAGE value="intial commit" />
-    <MESSAGE value="Binary search Algo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Binary search Algo" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/stack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithim/sorting/bubble-sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file-system/testing">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file-system/test">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file-system/copy-json-data-to-another-file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/route_id.txt" />
-    <entry file="file://$PROJECT_DIR$/data-types/List/sort-list-of-string.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miscellaneous/reference-count.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/while-loop/factorial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/while-loop/fibonacci.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-types/List/sum-of-sqaure-root-digit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/update-form-values-without-refresh.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="83" column="38" selection-start-line="83" selection-start-column="38" selection-end-line="83" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2095_level/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="136" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javasript/JS.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#2;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#2;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#3;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#3;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#4;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#4;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#6;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#6;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#7;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#7;n#table#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/most_popular_cities_list.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miscellaneous/file-gmc.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="629" column="14" selection-start-line="629" selection-start-column="14" selection-end-line="629" selection-end-column="14" />
-          <folding>
-            <element signature="e#6367#6372#0" expanded="true" />
-            <element signature="e#13140#13145#0" expanded="true" />
-            <element signature="e#19898#19903#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rough.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding>
-            <element signature="e#1993#2235#0" />
-            <element signature="e#3929#7793#0" />
-            <element signature="e#7799#12018#0" />
-            <element signature="e#12024#16463#0" />
-            <element signature="e#16469#20332#0" />
-            <element signature="e#20338#24204#0" />
-            <element signature="e#24210#28406#0" />
-            <element signature="e#28412#32588#0" />
-            <element signature="e#32594#36764#0" />
-            <element signature="e#36770#40958#0" />
-            <element signature="e#40964#45229#0" />
-            <element signature="e#45235#49497#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miscellaneous/mixed.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="46" selection-start-line="46" selection-end-line="60" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-types/List/bubble-sort-list of int.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-types/List/list-intersetion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-types/List/nestedList-to-singleList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-types/List/imp-1-str.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-types/List/missing-and-duplicate-num.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-231" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-types/List/palindrome-numbers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-types/List/ith-ele-sum-of-i+1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-types/List/duplicate-word-removal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-types/List/dont-count-space-digit-in-str.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.3/python_stubs/897690149/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="237" column="4" selection-start-line="237" selection-start-column="4" selection-end-line="237" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/abc.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-types/string/first-non-repeating-char.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-types/string/string-multi-char-replace.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-types/string/longest-2-char-string.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-types/string/find-vowel-count.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-types/string/change-first-letter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-types/dictionary/prog-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-types/dictionary/tuple-to-dictionary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miscellaneous/prime-number.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decorator/decorator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miscellaneous/armstrong-numbers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miscellaneous/factorial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miscellaneous/fibinacci-series.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-types/dictionary/list-to-dict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-types/dictionary/dict-key-value-count.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <MESSAGE value="new code added" />
+    <option name="LAST_COMMIT_MESSAGE" value="new code added" />
   </component>
 </project>

@@ -57,12 +57,6 @@ if __name__ == "__main__":
 
 
 
-
-
-
-
-
-
 max_len = 0
 for i in range(len(s)):
     _map = {}
@@ -75,20 +69,6 @@ for i in range(len(s)):
     max_len = max(max_len, len(_map))
 
 # print(max_len)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
