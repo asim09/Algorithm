@@ -20,3 +20,12 @@ data['name4'] = 'shubham'
 data['name5'] = 'shubham'
 
 writeToJSONFile('testing.json',data)
+
+#TODO search and Replace Text inn file:
+
+with open('abc.txt', 'r'):
+    
+
+
+
+

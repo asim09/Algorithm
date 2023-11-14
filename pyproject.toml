@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "algorithm"
+version = "0.1.0"
+description = ""
+authors = ["asim"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python3 = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
