@@ -1,18 +1,4 @@
-dict = {'a':'A', 'b':2, 'c':3, 'd':'c'}
-sample_list = list(dict.keys()) + list(dict.values())
-resultant_dict = {}
-for i in sample_list:
 
-      if isinstance(i, int):
-         if i not in resultant_dict.keys():
-            resultant_dict[i] = sample_list.count(i)
-      else:
-         if i.upper() not in resultant_dict.keys():
-            count_lower = sample_list.count(i.lower())
-            count_upper = sample_list.count(i.upper())
-            resultant_dict[i.upper()] = count_lower + count_upper
-
-print(resultant_dict)
 
 
 

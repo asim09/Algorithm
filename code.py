@@ -1,94 +1,11 @@
-from access_fun import evaluate_test_cases
 
 
-def locate_card(cards):
-    position = 0
-    lo = 0
-    hi = len(cards['input']['cards']) - 1
-    query = cards['input']['query']
-    output = cards['output']
-    cards = cards['input']['cards']
+t = (2,3,4)
 
-    while position < len(cards):
-        mid = (lo + hi) // 2
-        print(f"lo: {lo} hi: {hi} mid - {mid} cards[mid]: {cards[mid]} query {query}")
-        result = test_loaction(cards, query, mid)
+print(dir(t))
 
-        if result == 'found':
-            return mid
+print(len(t))
 
-        if result == 'left':
-            hi = mid - 1
-
-        if result == 'right':
-            lo = mid + 1
-
-        position += 1
-    return -1
-
-
-def test_loaction(cards, query, mid):
-    print(query, cards[mid])
-    if query == cards[mid]:
-
-        if mid - 1 > 0 and cards[mid - 1] == query:
-            return 'left'
-        else:
-            return 'found'
-
-    elif query > cards[mid]:
-        return 'left'
-    else:
-        return 'right'
-
-
-tests = [
-    {'input': {'cards': [13, 11, 10, 7, 4, 3, 1, 0], 'query': 7}, 'output': 3},
-    {'input': {'cards': [13, 11, 10, 7, 4, 3, 1, 0], 'query': 1}, 'output': 6},
-    {'input': {'cards': [4, 2, 1, -1], 'query': 4}, 'output': 0},
-    {'input': {'cards': [3, -1, -9, -127], 'query': -127}, 'output': 3},
-    {'input': {'cards': [6], 'query': 6}, 'output': 0},
-    {'input': {'cards': [9, 7, 5, 2, -9], 'query': 4}, 'output': -1},
-    {'input': {'cards': [], 'query': 7}, 'output': -1},
-    {'input': {'cards': [8, 8, 6, 6, 6, 6, 6, 3, 2, 2, 2, 0, 0, 0], 'query': 3},
-     'output': 7},
-    {'input': {'cards': [8, 8, 6, 6, 6, 6, 6, 6, 3, 2, 2, 2, 0, 0, 0],
-               'query': 6},
-     'output': 2}
-]
-
-
-evaluate_test_cases(locate_card, tests)
-
-# for index, test in enumerate(tests):
-#     print('=' * 30)
-#     print()
-#     print(f"Test Case {index}")
-#
-#     res = locate_card(test)
-#     test_count['TOTAL'] = len(tests)
-#
-#     if res == test['output']:
-#         test_count['PASSED'] += 1
-#         print(f"Input {test['input']['cards']}, {test['input']['query']}")
-#         print()
-#         print(f"Expected Output {test['output']}")
-#         print()
-#         print(f"Actual Output {res}")
-#         print()
-#         print(f"PASSED")
-#     else:
-#         test_count['FAILED'] += 1
-#         print(f"Input {test['input']['cards']}, {test['input']['query']}")
-#         print()
-#         print(f"Expected Output {test['output']}")
-#         print()
-#         print(f"Actual Output {res}")
-#         print()
-#         print(f"FAILED")
-#     print(test_count)
-
-import shortcuts
 # import sys,os
 # import resource
 # if os.name == 'posix':import resource
