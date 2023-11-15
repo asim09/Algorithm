@@ -228,16 +228,31 @@ case1 = "[()]{}{[()()]()}"
 case2 = ""
 # print(ispar(case1))
 
-#******************************************************************
+# ******************************************************************
 
-f"1 - Find the first non repeating element from string example: 'SILVER FOR SILVER'."
-f"2-Write a program to delete second occurence of a element in a list."
-f"3 - find prime num between 100 to 200"
-
+"16. Find the final direction of a pivot which is given commands to move left / right:"
+'explanation: initial position is required and should br passed as a parameter.'
 
 
+def find_direction(commands, initial_pos):
+    directions = ("N", "E", "S", "W")
+    command_bounderies = ("L", "R")
+    initial_pos_index = directions.index(initial_pos)
+    print(initial_pos_index)
+    counter = initial_pos_index
+    for command in commands:
+        if command in command_bounderies:
+            counter = counter + -1 if command == "L" else 1
+            new_position = directions[counter]
+    return new_position
 
 
+initial_pos = "S"
+commands = "LLR L"
+output = "W"
+print(find_direction(commands, initial_pos))
+
+# ******************************************************************
 
 f"3 - find prime num between 100 to 200"
 def foo():
