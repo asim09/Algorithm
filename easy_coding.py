@@ -201,3 +201,40 @@ def recur_fibo(n):
 for i in range(10):
     print(recur_fibo(i))
 
+'''***********************************'''
+user_name = 'Asim Khan'
+
+
+pwd = 'AsimnahK'
+
+def gen_pwd(user_name):
+    lst_user_name = user_name.split(' ')
+    second_name = lst_user_name[-1]
+    second_name = second_name[::-1]
+    # print(second_name)
+    lst_user_name[1] = second_name
+    pwd = ''.join(lst_user_name)
+    print(pwd)
+    return pwd
+
+'''***********************************'''
+
+# Find age abbove the input given
+
+def age_above_input(arr, age):
+    age_lst = [x['Age'] for x in arr]
+    required_age = list(filter(lambda x: x > age, age_lst))
+    final_dict = {x['Name']: x['Age'] for x in arr if x['Age'] in required_age}
+    return final_dict
+
+
+age = 18
+
+arr = [
+    {"Name": "Arun", "Age": 20},
+    {"Name": "Babu", "Age": 30},
+    {"Name": "Charle", "Age": 15},
+    {"Name": "Dinesh", "Age": 18}
+]
+print(age_above_input(arr, age))
+

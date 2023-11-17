@@ -62,7 +62,7 @@ def decorator(func):
 @decorator
 def array1(index):
     print(array[index])
-
-
 array1(4)
+
+'''***************************************************************************'''
 

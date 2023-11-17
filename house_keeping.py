@@ -1,226 +1,68 @@
+# Fiind the ....
 
-# Python program to illustrate for loop in the generator function
-def odd_num(start, end):
-    for i in range(start, end + 1):
-        if i % 2 != 0:
-            yield (i)
+'''
+vehicleid,stops,start
+1,a,1000
+2,a,1200
+1,b,1100
+1,c,1200
+2,d,1500
 
-# for num in odd_num(1, 10):
-#     print(num)
+expected
+vehicleid,stops,start,end
+1,a-b-c,1000,1200
+2,a-d,1200,1500
 
+'''
 
-def sqr():
-    i = 1
-    while True:
-        yield i * i
-        i += 1
+routes = [
+    {'id': 1, 'stop': 'a', 'start': 1000},
+    {'id': 2, 'stop': 'a', 'start': 1200},
+    {'id': 1, 'stop': 'b', 'start': 1100},
+    {'id': 1, 'stop': 'c', 'start': 1200},
+    {'id': 2, 'stop': 'd', 'start': 1500},
 
-
-for i in sqr():
-    # print('=====', i)
-    if i > 10:
-        break
-    # print(i)
-
-def pow(max):
-    n = 0
-    while n < max:
-        yield n*n
-        print()
-        n+=1
-
-# print(pow(4))
-
-
-class Sentence:
-    def __int__(self, sentence):
-        self.sentence = sentence
-        self.index = 0
-        self.words = self.sentence.split()
-
-    def __iter__(self):
-        return self
-
-    def __next__(self):
-        if self.index >= len(self.sentence):
-            raise StopIteration
-        index = self.index
-        self.index += 1
-        return self.sentence[index]
-
-# s1 = Sentence('This is my world')
-
-# for char in s1:
-#     print(char)
-
-
-import json
-Student_Data =  [
- {
-   'Prtky': 'P001',
-   'Srtky': 'S001',
-   'Name': 'Abc',
-   'Subj': 'Math1',
-   'Country': 'India'
- },
- {
-   'Prtky': 'P002',
-   'Srtky': 'S002',
-   'Name': 'Abc',
-   'Subj': 'Math2',
-   'Country': 'India'
- },
- {
-   'Prtky': 'P003',
-   'Srtky': 'S003',
-   'Name': 'Pqr',
-   'Subj': 'Math3',
-   'Country': 'India2'
- }
 ]
 
+'1,a-b-c,1000,1200'
 
-output = [
-  {
-    'Abc': {
-      'Subj': 'Math',
-      'Country': 'India',
-      'keys': [
-        {
-          'Prtky': 'P001',
-          'Srtky': 'S001'
-        },
-        {
-          'Prtky': 'P002',
-          'Srtky': 'S002'
-        }
-      ]
-    }
-  },
-  {
-    'Pqr': {
-      'Subj': 'Math',
-      'Country': 'India',
-      'keys': [
-        {
-          'Prtky': 'P003',
-          'Srtky': 'S003'
-        }
-      ]
-    }
-  }
-]
+path = [1, 'a', 'b', 'c']
 
 
-def sample_output(students):
-    final_dict = {}
-    for obj in students:
-        if obj['Name'] not in final_dict.keys():
-            final_dict[obj['Name']] = {}
-            temp_list = []
-            temp_list.append({'Prtky': obj['Prtky'], 'Srtky': obj['Srtky']})
-            temp_dict = {'Subj': obj['Subj'], 'Country': obj['Country']}
-            temp_dict.update({'Keys': temp_list})
-            final_dict[obj['Name']].update(temp_dict)
-        else:
-            temp_dict = {'Subj': obj['Subj'], 'Country': obj['Country']}
-            temp_list.append({'Prtky': obj['Prtky'], 'Srtky': obj['Srtky']})
-            temp_dict.update({'Keys': temp_list})
-            final_dict[obj['Name']].update(temp_dict)
-    return json.dumps(final_dict, indent=2)
+def calculate_path():
+    vehice_id = path.pop(0)
+    stops = '-'.join(path)
+    final_dict = dict()
+    for stop in path:
+        data = get_time_of_path(vehice_id, stop)
+        if not vehice_id in final_dict.keys():
+            final_dict[vehice_id] = {}
+        if not 'vehice_id' in final_dict[vehice_id].keys():
+            final_dict[vehice_id].update({'vehice_id': vehice_id})
+        final_dict[vehice_id].update({'vehice_id': vehice_id, 'stop': stops, 'end': data})
+
+    print(final_dict)
+    return final_dict
 
 
-print(sample_output(Student_Data))
+def get_time_of_path(vehice_id, stop):
+    for obj in routes:
+        if vehice_id == obj['id'] and stop == obj['stop']:
+            start = obj['start']
+    return start
 
 
+calculate_path()
 
 
+'''**********************************************'''
+def decorator_list(func):
+    def inner(list_of_tuple):
+        return [func(v[0], v[1]) for v in list_of_tuple]
+    return inner
 
+@decorator_list
+def add_together(a,b):
+    return a+b
 
-if __name__ == "__main__":
-    read_file_from_files_lake(files_path="/Users/mkhan11/Documents/development/data")
-
-
-def findLongestSubstring(string):
-    n = len(string)
-    st = 0
-    maxlen = 0
-    start = 0
-    pos = {}
-    pos[string[0]] = 0
-
-    for i in range(1, n):
-        if string[i] not in pos:
-
-            pos[string[i]] = i
-            # print(f'={pos}=={[string[i]]}===={i}')
-            # print()
-        else:
-            # print(f'={pos}=={[string[i]]}===={i}')
-            if pos[string[i]] >= st:
-                currlen = i - st
-                if maxlen < currlen:
-                    maxlen = currlen
-                    start = st
-                st = pos[string[i]] + 1
-            # print(f'==={pos}')
-            # print(f'==={pos[string[i]]}==={i}')
-            pos[string[i]] = i
-            # print(f'={pos}=={[string[i]]}===={i}')
-    # if maxlen < i - st:
-    #     print('==================================')
-    #     maxlen = i - st
-    #     start = st
-    # print(start,start + maxlen)
-    return string[start: start + maxlen]
-
-
-def solve(str: str) -> int:
-    if len(str) == 0:
-        return 0
-    maxans = -1
-    for i in range(len(str)):
-        set = {}
-        for j in range(i, len(str)):
-            print(f"i-->{i}, j--->{j}, set----{set},str[j]---->{str[j]},  maxans---- {maxans}")
-            if str[j] in set:
-                print()
-                maxans = max(maxans, j - i)
-                break
-            set[str[j]] = 1
-        print()
-    return maxans
-
-
-def findLongestSubstring(string: str):
-    n = len(string)
-    st = 0
-    maxlen = 0
-    start = 0
-    pos = {}
-    pos[string[0]] = 0
-
-    for i in range(1, n):
-        if string[i] not in pos:
-            pos[string[i]] = i
-        else:
-            if pos[string[i]] >= st:
-                currlen = i - st
-                if maxlen < currlen:
-                    maxlen = currlen
-                    start = st
-                st = pos[string[i]] + 1
-            pos[string[i]] = i
-    print(start, start + maxlen)
-    return string[start: start + maxlen]
-
-# find subarray with given sum:\
-
-
-
-
-
-if __name__ == "__main__":
-    string1 = "GEEKFORGEEKS"
-    string2 = "abcaabcdba"
-    # print(subarray_of_given_sum(array=[1, 4, 0, 0, 3, 10, 5], sum=7))
+print(add_together([(1, 3), (3, 17), (5, 5), (6, 7)]))
