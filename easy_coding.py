@@ -154,7 +154,6 @@ for i in range(50001):
 def fac(n):
     if n ==1:
         return 1
-    print(n, (n-1))
     return n * fac(n - 1)
 
 
@@ -237,4 +236,100 @@ arr = [
     {"Name": "Dinesh", "Age": 18}
 ]
 print(age_above_input(arr, age))
+
+'''**********************************************************'''
+
+grades = ["A", "A", "B", "C", "D", "C", "B", "C", "A", "C", "B"]
+output = {'A': 3, 'B': 3, 'C': 4, 'D': 1}
+counter = dict()
+for grade in grades:
+    if grade in counter:
+        counter[grade] = counter[grade] + 1
+    else:
+        counter[grade] = 1
+
+print(counter)
+'''**********************************************************'''
+dict = {'a':'A', 'b':2, 'c':3, 'd':'c'}
+result = {'A': 2, 'B': 1, 'C': 2, 'D': 1, 2: 1, 3: 1}
+sample_list = list(dict.keys()) + list(dict.values())
+resultant_dict = {}
+for i in sample_list:
+
+      if isinstance(i, int):
+         if i not in resultant_dict.keys():
+            resultant_dict[i] = sample_list.count(i)
+      else:
+         if i.upper() not in resultant_dict.keys():
+            count_lower = sample_list.count(i.lower())
+            count_upper = sample_list.count(i.upper())
+            resultant_dict[i.upper()] = count_lower + count_upper
+print(resultant_dict)
+'''**********************************************************'''
+# count word trarting have same first character.
+list = ['hello', 'king', 'word', 'sword','swear', 'hi']
+result = {'h': ['hello', 'hi'], 'k': ['king'], 'w': ['word'], 's': ['sword', 'swear']}
+resultant_dict = dict()
+
+for word in list:
+    if word[0] not in resultant_dict:
+        resultant_dict[word[0]] = []
+        resultant_dict[word[0]].append(word)
+    else:
+        resultant_dict[word[0]].append(word)
+
+
+for i, j in resultant_dict.items():
+    print(i, ':', j)
+
+print(resultant_dict)
+'''**********************************************************'''
+# Make first letter as key
+data = ['apple', 'king', 'word','swear','swear' ]
+res = {'a': 'apple', 'k': 'king', 'w': 'word', 's': 'swear'}
+resultant_dict = dict()
+
+for word in list:
+    resultant_dict[word[0]] = word
+
+print(resultant_dict)
+'''**********************************************************'''
+
+grades = ["A", "A", "B", "C", "D", "C", "B", "C", "A", "C", "B"]
+res = {'A': 3, 'B': 3, 'C': 4, 'D': 1}
+
+counter = dict()
+for grade in grades:
+    if grade in counter:
+        counter[grade] = counter[grade] + 1
+    else:
+        counter[grade] = 1
+print(counter)
+'''**********************************************************'''
+#Prog - 1: convert two list into dict
+keys = ['a', 'b', 'c']
+values = [1, 2, 3]
+d = dict(zip(keys, values))
+print(d)
+'''**********************************************************'''
+# Tuple to dict
+
+# Method-1
+t = ((1, 'a'),(2, 'b'))
+l = dict(map(reversed, t))
+
+# Method-2
+t = ((1, 'a'),(2, 'b'))
+l = {y:x for x, y in t}
+
+
+
+# Method-3
+t = ((1, 'a'),(2, 'b'))
+l = dict((y, x) for x, y in t)
+'''**********************************************************'''
+'''**********************************************************'''
+'''**********************************************************'''
+'''**********************************************************'''
+'''**********************************************************'''
 
