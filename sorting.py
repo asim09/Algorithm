@@ -76,9 +76,6 @@ def sort_dict01(my_dict01):
 def sort_dict02(my_dict02):
     sorted_dict = sorted(my_dict02.items(), key=lambda i: (i[1], i[0]))
     return sorted_dict
-print(sort_dict02(my_dict02))
-
-
-
+# print(sort_dict02(my_dict02))
 
 # ************************************************************************************************************************************

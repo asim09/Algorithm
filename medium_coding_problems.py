@@ -97,7 +97,7 @@ def frequncy(sample_dict):
     return resultant_dic
 
 
-print(frequncy(sample_dict))
+# print(frequncy(sample_dict))
 
 
 "Method-2"
@@ -250,13 +250,59 @@ def find_direction(commands, initial_pos):
 initial_pos = "S"
 commands = "LLR L"
 output = "W"
-print(find_direction(commands, initial_pos))
+# print(find_direction(commands, initial_pos))
 
 # ******************************************************************
 
-f"3 - find prime num between 100 to 200"
+"17 - find prime num between 100 to 200"
 def foo():
     for num in range(100, 200):
         if all(num %i !=0 for i in range(2,num)):
             print(num)
-foo()
+# foo()
+
+
+
+"18 - Sort the array [0, 1 and 2]"
+arr = [0, 1, 1, 0, 2, 1, 0, 1, 2]
+output = [0, 0, 1, 1, 1, 2, 2]
+
+def sort012(array):
+    array_len = len(array)
+    lo, mid = 0, 0
+    hi = array_len - 1
+    while mid <=hi:
+        if array[mid] == 0:
+            array[lo], array[mid] = array[mid], array[lo]
+            lo+=1
+            mid+=1
+            
+        elif array[mid] == 1:
+            mid+=1
+        else:
+            
+            array[hi], array[mid] = array[mid], array[hi]
+            hi-=1
+    return arr
+
+# print(sort012(arr))
+
+"18 - Sort the array [0 and 1]"
+arr = [1, 1, 1, 0, 1, 1, 0, 1, 1]
+# output = [0, 0, 1, 1, 1, 2, 2]
+
+def sort013(array):
+    array_len = len(array)
+    lo, mid = 0, 0
+    hi = array_len - 1
+    while mid <=hi:
+        if array[mid] == 0:
+            array[lo], array[mid] = array[mid], array[lo]
+            lo+=1
+            mid+=1
+            
+        elif array[mid] == 1:
+            mid+=1
+    return arr
+
+# print(sort012(arr))
