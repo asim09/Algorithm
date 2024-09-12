@@ -22,10 +22,7 @@ def findLongestSubstring(string):
             pos[string[i]] = i
             # print(f'={pos}=={[string[i]]}===={i}')
             # print()
-            
-            
         else:
-            
             # print(f'={pos}=={[string[i]]}===={i}')
             if pos[string[i]] >= st:
                 currlen = i - st
@@ -33,9 +30,6 @@ def findLongestSubstring(string):
                     maxlen = currlen
                     start = st
                 st = pos[string[i]] + 1
-            
-
-            
             # print(f'==={pos}')
             # print(f'==={pos[string[i]]}==={i}')
             pos[string[i]] = i

@@ -31,7 +31,7 @@ for grade in grades:
 
 print(counter)
 
-# count word trarting have same first character.
+# count word starting have same first character.
 list = ['hello', 'king', 'word', 'sword','swear', 'hi']
 resultant_dict = dict()
 
@@ -61,7 +61,7 @@ print(resultant_dict)
 
 '''*****************************************************************************************'''
 
-
+#Sort a list based on a key
 data = [
     {
         "eid": 95,
