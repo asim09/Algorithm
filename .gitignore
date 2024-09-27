@@ -7,3 +7,6 @@ __pycache__/
 *.env
 .idea/
 env/
+code_20210601.zip
+code_20210601/
+bah_run.py
