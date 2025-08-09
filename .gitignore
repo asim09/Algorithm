@@ -1,0 +1,7 @@
+env/
+.idea/
+housekeeping/
+stable_scripts/
+telegram.py
+testing/
+price_change_with_24Hrs_vol.py
