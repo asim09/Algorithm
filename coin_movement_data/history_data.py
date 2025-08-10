@@ -1,6 +1,7 @@
 import requests, json # Install requests module first.
 from datetime import datetime, timezone, timedelta
 import pandas as pd
+#some changes
 
 url = "https://public.coindcx.com/market_data/candles?pair=I-SOL_INR&interval=5m&limit=5" # Replace 'SNTBTC' with the desired market pair.
 
