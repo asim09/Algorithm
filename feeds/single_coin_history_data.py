@@ -1,9 +1,16 @@
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import pathlib
+sys.path.append(str(pathlib.Path(__file__).parent.parent))
+
+
 import requests, json # Install requests module first.
 from datetime import datetime, timezone, timedelta
 import pandas as pd
 
 
-url = "https://public.coindcx.com/market_data/candles?pair=I-SOL_INR&interval=5m&limit=5" # Replace 'SNTBTC' with the desired market pair.
+url = "https://public.coindcx.com/market_data/candles?pair=B-SOL_USDT&interval=5m&limit=5" # Replace 'SNTBTC' with the desired market pair.
 
 response = requests.get(url)
 data = response.json()

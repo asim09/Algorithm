@@ -84,7 +84,7 @@ def summarize_all_coins(price_lookup=None):
     return all_summary
 
 
-# print(json.dumps(summarize_all_coins(), indent=4))
+print(json.dumps(summarize_all_coins(), indent=4))
 
 
 

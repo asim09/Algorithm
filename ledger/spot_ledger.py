@@ -1,7 +1,7 @@
 import pandas as pd
 import json
 
-file_path = "asimkhan_0808202520091620250808-6-4arwtj.xlsx"
+file_path = "asimkhan.xlsx"
 df_spot = pd.read_excel(file_path, sheet_name="Spot Orders", header=8, engine='openpyxl')
 df_spot.columns = df_spot.columns.str.strip()
 
@@ -83,4 +83,4 @@ def summarize_all_coins(price_lookup=None):
         all_summary[coin] = summarize_orders_for_coin(coin, price_lookup=price_lookup)
     return all_summary
 
-# print(json.dumps(summarize_all_coins(), indent=4))
+print(json.dumps(summarize_all_coins(), indent=4))
