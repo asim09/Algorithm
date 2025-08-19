@@ -3,7 +3,7 @@ import os
 from collections import Counter
 
 "1 - Find the first non repeating element from string example: 'SILVER FOR SILVER'."
-"2-Write a program to delete second occurence of a element in a list."
+
 "3 - find prime num between 100 to 200"
 
 
@@ -228,6 +228,24 @@ case1 = "[()]{}{[()()]()}"
 case2 = ""
 # print(ispar(case1))
 
+#Method 2
+
+def ispar(x):
+    stack = []
+    matching_brackets = {")": "(", "}": "{", "]": "["}  # Mapping closing to opening brackets
+    
+    for char in x:
+        if char in matching_brackets.values():  # Opening brackets
+            stack.append(char)
+        elif char in matching_brackets:  # Closing brackets
+            if stack and stack[-1] == matching_brackets[char]:
+                stack.pop()
+            else:
+                return False
+    
+    return len(stack) == 0
+
+
 # ******************************************************************
 
 "16. Find the final direction of a pivot which is given commands to move left / right:"
@@ -264,6 +282,7 @@ def foo():
 
 
 "18 - Sort the array [0, 1 and 2]"
+"Efficient Solution: Dutch National Flag Algorithm"
 arr = [0, 1, 1, 0, 2, 1, 0, 1, 2]
 output = [0, 0, 1, 1, 1, 2, 2]
 
@@ -306,3 +325,69 @@ def sort013(array):
     return arr
 
 # print(sort012(arr))
+
+'''19. Problem: Two Sum
+Given an array of integers nums and an integer target, 
+return the indices of the two numbers such that they add up to the target.
+
+Constraints
+Each input has exactly one solution.
+You may not use the same element twice.
+You can return the answer in any order.
+nums = [2, 7, 11, 15]
+target = 9
+'''
+
+" This is Optimized with Hash Map"
+def two_sum(nums, target):
+    seen = {}
+    for i, num in enumerate(nums):
+        complement = target - num
+        if complement in seen:
+            return [seen[complement], i]
+        seen[num] = i
+
+
+
+"*******************************************"
+"2-Write a program to delete second occurence of a element in a list."
+'''
+catch -  if we you normal for loop: suppose len of list is 5, and in 3rd iteration loop captures
+second occurence and delete that elemnt, in this case the len of list reduced to 4 
+and the last elemnt shifted to left means last elemnt occurance will not be checked 
+and loop will termnated after 4th iteration.
+using while loop and "continue" will help here, continue will not increment the counter in case
+2nd occurenc is found.
+'''
+def remove_second_occurrence(lst):
+    temp = {}
+    n = 0
+    while n < len(lst):
+        i = lst[n]
+        temp[i] = temp.get(i, 0) + 1
+        
+        # Remove the second occurrence
+        if temp[i] == 2:
+            del lst[n]
+            continue  # Don't increment `n` as the list has shifted
+
+        # print('after continiue', lst[n])
+        n += 1
+
+    return lst
+
+l = ['a', 'a', 'a', 'a']
+print(remove_second_occurrence(l))  # Output: ['a', 'b', 'c']
+
+# Test cases for edge cases
+test_cases = [
+    [],  # Empty list
+    ['a', 'b', 'c'],  # No duplicates
+    ['a', 'a', 'a', 'a'],  # All same elements
+    ['a'],  # Only one element
+    ['a', 'b', 'c', 'a', 'b'],  # General case
+    ['x', 'x', 'x', 'y', 'x'],  # More than two occurrences of an element
+]
+
+for test in test_cases:
+    print(f"Original: {test} => Updated: {remove_second_occurrence(test)}")
