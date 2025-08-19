@@ -16,9 +16,9 @@ from redis_client import redis_client
 
 
 PRICE_ALERT = {
-    # "USDTINR": {"low": 88.0, "high": 92.0},
-    "SOLUSDT": {"low": 181.10, "high": 193.40},
-    "FARTCONUSDT": {"low": 0.95, "high": 1.2},
+    # "USDTINR": {"low": 89.0, "high": 92.0},
+    "SOLUSDT": {"low": 177.50, "high": 180.60},
+    # "FARTCONUSDT": {"low": 0.95, "high": 1.2},
     # "TRUMPINR": {"low": 785, "high": 850},
     # "IDEXINR": {"low": 1.5, "high": 2.9},
     # "KASINR": {"low": 7.5, "high": 8.8},

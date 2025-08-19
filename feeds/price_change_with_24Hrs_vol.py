@@ -31,7 +31,7 @@ def on_message(response):
         reverse=True
     )
     json_data = json.dumps(sorted_data)
-    redis_client.set("moving_coins", json_data)
+    # redis_client.set("moving_coins", json_data)
 
     for i, (symbol, details) in enumerate(sorted_data, start=1):
         print(f"{i} ==> {symbol}: pc = {details['pc']}%, v = {details['v']:.2f}")
