@@ -1,11 +1,13 @@
-import json
+import json, os
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 
 import requests
+telegram_bot_token = os.getenv("telegram_bot_token")
+telegram_chat_id = os.getenv("telegram_chat_id")
 
-telegram_bot_token = "8224351927:AAFdCZoKr7KkKBDBdAdGOW0JF5buSDtKnMU"
-telegram_chat_id = "7926727897"  # Replace with your actual chat ID
+
+
 # ============================================================
 
 

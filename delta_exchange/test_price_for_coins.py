@@ -1,8 +1,9 @@
 import websocket
 import json, time
 from telegram import format_timestamp_ist, send_telegram_message, convert_iso_to_ist, to_ist
-
+from dotenv import load_dotenv
 # production websocket base url
+load_dotenv()
 WEBSOCKET_URL = "wss://socket.india.delta.exchange"
 
 PRICE_ALERT = {
