@@ -7,12 +7,12 @@ sio = socketio.Client()
 @sio.event
 def connect():
     print("I'm connected!")
-    sio.emit('join', {'channelName': "B-BTC_USDT_1m"})
+    sio.emit('join', {'channelName': "B-BTC_USDT@orderbook@20"})
 
 
-@sio.on('candlestick')
+@sio.on('depth-snapshot')
 def on_message(response):
-    print("candlestick Response !!!")
+    print("depth-snapshot Response !!!")
     print(response)
 
 
@@ -20,7 +20,7 @@ def main():
     try:
         sio.connect(socketEndpoint, transports='websocket')
         while True:
-            sio.event('candlestick', {'channelName': "B-BTC_USDT_5m"})
+            sio.event('depth-snapshot', {'channelName': "B-BTC_USDT@orderbook@20"})
     except Exception as e:
         print(f"Error connecting to the server: {e}")
         raise

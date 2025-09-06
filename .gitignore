@@ -1,7 +1,4 @@
 env/
 .idea/
-housekeeping/
-telegram.py
-testing/
 *.pyc
-
+.env

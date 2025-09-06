@@ -7,21 +7,13 @@ import json
 
 import socketio
 from telegram import format_timestamp_ist, send_telegram_message
-from stores import data_store
-from redis_client import redis_client
-
-
-
-
-
 
 PRICE_ALERT = {
-    # "USDTINR": {"low": 88.80, "high": 91.0},
-    "SOLUSDT": {"low": 198.0, "high": 208.10},
-    # "FARTCONUSDT": {"low": 0.95, "high": 1.2},
-    # "TRUMPINR": {"low": 785, "high": 850},
+    # "USDTINR": {"low": 85.0, "high": 92.0},
+    "SOLINR": {"low": 14500.0, "high": 15450.0},
+    "TRUMPINR": {"low": 785, "high": 850},
     # "IDEXINR": {"low": 1.5, "high": 2.9},
-    # "KASINR": {"low": 7.5, "high": 8.8},
+    # "KASINR": {"low": 7.5, "high": 9.0},
 }
 sol_lowest_price = None
 
@@ -30,6 +22,7 @@ socketEndpoint = "wss://stream.coindcx.com"
 channel_name = "currentPrices@spot@10s"
 
 sio = socketio.Client()
+USD = None
 
 
 @sio.event
@@ -41,14 +34,27 @@ def connect():
 # Price update handler
 @sio.on("currentPrices@spot#update")
 def on_message(response):
+    global USD
+    # print("====USD previous Price===========", USD)
     try:
         price_data = json.loads(response["data"])
         timestamp = format_timestamp_ist(price_data.get("ts"))
-        prices = price_data["prices"]
-        # json_data = json.dumps(prices)
-        # redis_client.set("current_price_10s", json_data)
-        # filtered_data = {symbol: prices.get(symbol) for symbol in PRICE_ALERT if symbol in prices}
+        prices = price_data.get("prices", {})
+
+        USD_NEW = prices.get('USDTINR')
+        # print("Received New USD Price:", USD_NEW)
+
+        # ✅ Only update if new value is not None
+        if USD_NEW is not None:
+            USD = USD_NEW
+            # print("====USD Updated Price===========", USD)
+        # else:
+        #     print("====USD Unchanged (New value is None)===========", USD)
         
+        # print("====USD NEW Price===========", USD)
+        
+
+
 
         for symbol, thresholds in PRICE_ALERT.items():
             current_price = prices.get(symbol)
@@ -56,24 +62,27 @@ def on_message(response):
             if current_price:
                 
                 # Low price alert
-                if int(current_price) <= thresholds["low"]:
-                    print(f"🔻{symbol} ₹{current_price} @ {timestamp}")
+                if current_price <= thresholds["low"]:
+                    if USD:
+                        print(f"🔻{symbol} ₹{current_price} - USD {current_price/USD:.2f}  @ {timestamp}")
+                    print(f"🔻{symbol} ₹{current_price} - USD  @ {timestamp}")
                     send_telegram_message(
                         f"🔻{symbol} ₹{current_price} @ {timestamp}"
                     )
 
                 # High price alert
-                elif int(current_price) >= thresholds["high"]:
+                elif current_price >= thresholds["high"]:
                     print(
-                        f"⬆️ {symbol} Price ₹{int(current_price)}  - @ {timestamp}"
+                        f"⬆️ {symbol} Price ₹{current_price}  - @ {timestamp}"
                     )
                     send_telegram_message(
-                        f"⬆️ {symbol} Price ₹{int(current_price)}  - @ {timestamp}"
+                        f"⬆️ {symbol} Price ₹{current_price}  - @ {timestamp}"
                     )
                 else:
-                    if symbol !='USDTINR':
-                        print()
-                        print(f"✅ {symbol}: ₹{int(current_price)} at {timestamp}")
+                    print()
+                    if USD:
+                        print(f"✅{symbol} ₹{current_price} - USD {current_price/USD:.2f} @ {timestamp}")
+                    print(f"✅{symbol} ₹{current_price} - USD  @ {timestamp}")
                     
 
     except Exception as e:

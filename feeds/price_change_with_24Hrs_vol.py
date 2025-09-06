@@ -17,6 +17,7 @@ def connect():
 def on_message(response):
     print("priceStats@spot#update Response !!!")
     data = json.loads(response['data'])
+    print(data)
     stats = data.get('stats', {})
 
     filtered_data = {
@@ -33,10 +34,10 @@ def on_message(response):
     json_data = json.dumps(sorted_data)
     # redis_client.set("moving_coins", json_data)
 
-    for i, (symbol, details) in enumerate(sorted_data, start=1):
-        print(f"{i} ==> {symbol}: pc = {details['pc']}%, v = {details['v']:.2f}")
-    print()
-    print()
+    # for i, (symbol, details) in enumerate(sorted_data, start=1):
+    #     print(f"{i} ==> {symbol}: pc = {details['pc']}%, v = {details['v']:.2f}")
+    # print()
+    # print()
 
 
 @sio.event

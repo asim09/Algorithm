@@ -11,54 +11,54 @@ refresh_rate = 5
 st.caption(f"Auto-refreshing every {refresh_rate} seconds")
 
 # Merge coins that have INR variants (from your existing function)
-# def merge_similar_coins(coins):
-#     merged = {}
-#     processed = set()
+def merge_similar_coins(coins):
+    merged = {}
+    processed = set()
 
-#     for coin in coins:
-#         if coin in processed:
-#             continue
+    for coin in coins:
+        if coin in processed:
+            continue
 
-#         if coin.endswith("INR"):
-#             base_coin = coin[:-3]
-#             if base_coin in coins:
-#                 c1 = coins[base_coin]
-#                 c2 = coins[coin]
-#                 merged_buy_qty = c1["buy_summary"]["total_buy_qty"] + c2["buy_summary"]["total_buy_qty"]
-#                 merged_buy_amt = c1["buy_summary"]["total_net_buy_amount"] + c2["buy_summary"]["total_net_buy_amount"]
-#                 merged_buy_trades = c1["buy_summary"].get("buy_trades_count", 0) + c2["buy_summary"].get("buy_trades_count", 0)
-#                 merged_sell_qty = c1["sell_summary"]["total_sell_qty"] + c2["sell_summary"]["total_sell_qty"]
-#                 merged_sell_amt = c1["sell_summary"]["total_net_sell_amount"] + c2["sell_summary"]["total_net_sell_amount"]
-#                 merged_sell_trades = c1["sell_summary"].get("sell_trades_count", 0) + c2["sell_summary"].get("sell_trades_count", 0)
+        if coin.endswith("INR"):
+            base_coin = coin[:-3]
+            if base_coin in coins:
+                c1 = coins[base_coin]
+                c2 = coins[coin]
+                merged_buy_qty = c1["buy_summary"]["total_buy_qty"] + c2["buy_summary"]["total_buy_qty"]
+                merged_buy_amt = c1["buy_summary"]["total_net_buy_amount"] + c2["buy_summary"]["total_net_buy_amount"]
+                merged_buy_trades = c1["buy_summary"].get("buy_trades_count", 0) + c2["buy_summary"].get("buy_trades_count", 0)
+                merged_sell_qty = c1["sell_summary"]["total_sell_qty"] + c2["sell_summary"]["total_sell_qty"]
+                merged_sell_amt = c1["sell_summary"]["total_net_sell_amount"] + c2["sell_summary"]["total_net_sell_amount"]
+                merged_sell_trades = c1["sell_summary"].get("sell_trades_count", 0) + c2["sell_summary"].get("sell_trades_count", 0)
 
-#                 merged[base_coin] = {
-#                     "buy_summary": {
-#                         "total_buy_qty": merged_buy_qty,
-#                         "total_net_buy_amount": merged_buy_amt,
-#                         "avg_cost": merged_buy_amt / merged_buy_qty if merged_buy_qty else 0,
-#                         "buy_trades_count": merged_buy_trades,
-#                     },
-#                     "sell_summary": {
-#                         "total_sell_qty": merged_sell_qty,
-#                         "total_net_sell_amount": merged_sell_amt,
-#                         "avg_cost": merged_sell_amt / merged_sell_qty if merged_sell_qty else 0,
-#                         "sell_trades_count": merged_sell_trades,
-#                     },
-#                     "net_position_qty": merged_buy_qty - merged_sell_qty,
-#                     "total_traded_value": merged_buy_amt + merged_sell_amt
-#                 }
-#                 processed.add(base_coin)
-#                 processed.add(coin)
-#             else:
-#                 merged[coin] = coins[coin]
-#                 processed.add(coin)
-#         else:
-#             if coin not in processed:
-#                 if coin + "INR" not in coins:
-#                     merged[coin] = coins[coin]
-#                     processed.add(coin)
+                merged[base_coin] = {
+                    "buy_summary": {
+                        "total_buy_qty": merged_buy_qty,
+                        "total_net_buy_amount": merged_buy_amt,
+                        "avg_cost": merged_buy_amt / merged_buy_qty if merged_buy_qty else 0,
+                        "buy_trades_count": merged_buy_trades,
+                    },
+                    "sell_summary": {
+                        "total_sell_qty": merged_sell_qty,
+                        "total_net_sell_amount": merged_sell_amt,
+                        "avg_cost": merged_sell_amt / merged_sell_qty if merged_sell_qty else 0,
+                        "sell_trades_count": merged_sell_trades,
+                    },
+                    "net_position_qty": merged_buy_qty - merged_sell_qty,
+                    "total_traded_value": merged_buy_amt + merged_sell_amt
+                }
+                processed.add(base_coin)
+                processed.add(coin)
+            else:
+                merged[coin] = coins[coin]
+                processed.add(coin)
+        else:
+            if coin not in processed:
+                if coin + "INR" not in coins:
+                    merged[coin] = coins[coin]
+                    processed.add(coin)
 
-#     return merged
+    return merged
 
 # Fetch data
 summary = combined_summary()
