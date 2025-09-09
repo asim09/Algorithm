@@ -5,7 +5,7 @@ from telegram import format_timestamp_ist, send_telegram_message, convert_iso_to
 WEBSOCKET_URL = "wss://socket.india.delta.exchange"
 
 PRICE_ALERT = {
-    "SOLUSD": {"low": 211.30,"high": 220.75}
+    "SOLUSD": {"low": 211.30,"high": 218.75}
     # "ENAUSD": {"low": 0.17100, "high": 0.17200},
     # "BIOUSD": {"low": 0.17100, "high": 0.17200},
     # "MUSD": {"low": 1.6340, "high": 1.6350},
@@ -87,3 +87,5 @@ def start_socket():
 
 if __name__ == "__main__":
   start_socket()
+# kill cmd  to restart terminal process after any change in script
+# (env) root@LAPTOP-A99G22PN:/home/asim/code/trade# pkill -f test_price_for_coins.py
