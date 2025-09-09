@@ -1,10 +1,12 @@
 import json, os
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
-
+from dotenv import load_dotenv
 import requests
+load_dotenv()
 telegram_bot_token = os.getenv("telegram_bot_token")
 telegram_chat_id = os.getenv("telegram_chat_id")
+
 
 
 
